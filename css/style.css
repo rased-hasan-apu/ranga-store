@@ -1,6 +1,8 @@
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  
+  
 }
 .search-field {
   border: none;
@@ -15,16 +17,19 @@ body {
 .search-box {
   border: 1px solid rgb(3, 118, 211);
   width: 281px;
-  border-radius: 5px;
+  border-radius: 6px;
   margin: auto;
   margin-top: 50px;
   border-right: none;
 }
 .search-button {
   padding: 10px 50px;
-  border-radius: 25px;
-  margin-left: 20px;
+  border-radius: 30px;
+  margin-left: 25px;
+  background-color:#56b4d3;
+  color: white;
 }
+
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -36,8 +41,10 @@ body {
   justify-content: center;
 }
 .single-product {
+  border: 1px solid rgb(87, 85, 85);
   padding: 10px;
   transition: 0.6s;
+  margin:15px;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
@@ -69,7 +76,7 @@ body {
     width: 300px;
     /* border: 1px solid green; */
     padding: 10px;
-    box-shadow: 10px 10px 20px gray;
+    box-shadow: 10px 10px 20px rgb(49, 46, 46);
     border-radius: 5px;
     margin-right: 30px;
     position: fixed;
@@ -83,4 +90,17 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+}
+.btnStyle{
+  background-color:  #f9a315;
+  color: white;
+  
+}
+.buy-now{
+  background-color:  #ed433f;
+    color: white;
+}
+.buy-btn{
+  background-color: #388cff;
+  color: white;
 }
